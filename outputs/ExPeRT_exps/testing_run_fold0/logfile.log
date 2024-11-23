@@ -1,0 +1,21 @@
+Start fold 0
+GPU available: True (mps), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+Pushing dataset size: 4
+
+  | Name         | Type                   | Params
+--------------------------------------------------------
+0 | ppnet        | PPNet_wholeprotos      | 14.8 M
+1 | protoloss    | RegressionMetric_total | 0     
+2 | val_MAE      | MeanAbsoluteError      | 0     
+3 | test_MAE     | MeanAbsoluteError      | 0     
+4 | val_MAE_push | MeanAbsoluteError      | 0     
+--------------------------------------------------------
+13.2 M    Trainable params
+1.5 M     Non-trainable params
+14.8 M    Total params
+59.070    Total estimated model params size (MB)
+Experiment with name ExPeRT_exps not found. Creating it.
+Validation dataset size: 4

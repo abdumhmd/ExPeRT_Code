@@ -60,7 +60,7 @@ class NetworkParams:
     proto_shape: List[int] = field(default_factory=list)
 
     # range of prototype labels (set at start of training)
-    proto_range : List[int] = field(default_factory=list[int])
+    proto_range : List[int] = field(default_factory=list)
 
     # how to compute distances
     use_OT: bool = True  # whether to use optimal transport (else diagonals are taken)
